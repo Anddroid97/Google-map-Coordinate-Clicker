@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clicker</title>
+</head>
+<style>
+    #map{
+        position: relative;
+        width:50%;
+        height: 600px;
+        margin: auto;
+    }
+
+    .result{
+        position: relative;
+        width: max-content;
+        margin: auto;
+        margin-top: 3%;
+        padding: 10px 10px 10px 10px;
+        border: black solid 2px;
+    }
+</style>
+<body>
+
+<div id="map"></div>
+
+<div class="result">
+Latitude: <input type="text" id="lat"> Longitude: <input type="text" id="lng">
+</div>
+
+</body>
+<script src="mapClicker.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8gROgli9JUpM85XaFCC7zRoYoPRKMkls&callback=initMap">
+</script>
+</html>
