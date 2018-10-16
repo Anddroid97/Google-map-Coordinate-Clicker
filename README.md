@@ -21,4 +21,3 @@ And don't forget set your Api Key
         src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
 </script>
 ```
-![screen](/doc/chat.png?raw=true&v=2)
